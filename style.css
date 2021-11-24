@@ -1,0 +1,82 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   position:relative;
+   
+}
+.container-fluid{
+    overflow: hidden;
+    }
+
+/*Intro_Home_Image_Styling*/
+.bckImg{
+   background: url("assets/back.jpg") no-repeat   center center fixed;
+    background-color: #cccccc;
+    height:100vh;
+   position: relative;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+/*Navigation_Styling*/
+.nav-link.active {
+    color: #f5f2f1;           
+    }
+
+.s1{
+    font-weight: bold;
+}
+.l1,.l2,.l3,.l4,.l5{
+    font-size: 20px;
+}
+nav.scrolled {
+        background: rgb(34, 34, 49);
+        height:3rem;
+}
+
+/*Introduction_Content_Styling*/
+.intro{
+ position: absolute;
+ top:25%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*About_Styling*/
+.profileCss{
+    background-color: rgba(132, 170, 221, 0.5);
+}
+
+/*Skills_Styling*/
+.language{
+    color: rgb(85, 186, 199);
+    font-weight: bold;
+    font-style: italic;
+}
+.level{
+    background-color: rgba(219, 131, 131, 0.5) !important;
+}
+
+/*Education_Details_Styling*/
+.education{
+    background-color: rgb(214, 199, 210);
+   
+}
+
+/*Contact_Details_Styling*/
+.contact{
+    background-color: rgba(103, 107, 110,0.5);
+}
+
+/*Media_Queries_NavBar_Background_Color_Styling*/
+@media only screen and (max-width:800px) {
+    nav.scrolled {
+        background: rgb(156, 156, 187);
+        height:3rem;
+      }
+      .project1 {
+        margin-left:30px;
+      }
+}
